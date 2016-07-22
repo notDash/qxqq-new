@@ -1,0 +1,156 @@
+.food-header{
+    height:150px;
+}
+.tab{
+    height: 37px;
+    background: #18639D;
+}
+.tab .active{
+    background: #022661;
+}
+.tab ul>li {
+    display:inline-block;
+    line-height: 37px;
+    font-size: 16px;
+    padding: 0px 15px;
+
+}
+.tab ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.food-desc{
+    height:310px;
+    border:solid 2px #C4C4C4;
+    margin-bottom:32px;
+}
+.food-desc .desc p.flag{
+    background: url('../images/food/food-flag.png') no-repeat;
+    height:49px;
+    line-height: 49px;
+    font-size: 24px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.desc{
+    width:50%;
+    margin: 45px 0px;
+}
+.desc p{
+    padding-left: 30px;
+}
+.food-desc .photo {
+    padding:8px;
+}
+
+.food-area .location{
+    border: solid 2px #EEEEEE;
+}
+/*.location p{*/
+    /*background: url('../images/food/food-location.png') no-repeat;*/
+/*}*/
+.food-area .location{
+    height:80px;
+    margin-bottom:32px;
+}
+.location ul>li {
+    display:inline-block;
+    padding: 28px 40px;
+}
+
+.location .label{
+    background-color: #EEEEEE;
+    height:80px;
+    line-height: 80px;
+    padding: 0px 20px;
+}
+
+.food-area .title {
+    background-color: #F28D00;
+    color:#fff;
+    height:37px;
+    line-height:37px;
+    margin-bottom:32px;
+}
+.food-area .title span{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.food-area .list ul>li{
+    display:inline-block;
+    padding-right:41px;
+    margin-bottom: 53px;
+    vertical-align: middle;
+}
+
+.food-area .list ul>li:nth-child(3n+0){
+    padding-right:0px;
+}
+
+.food-area .list ul>li a{
+    text-decoration: none;
+}
+
+.food-area .list ul>li h3{
+    color:#F28D00;
+}
+
+.food-area .location-flag{
+    background-image: url('../images/food/food-location.png');
+    background-size: 100% auto;
+    width: 15px;
+    height: 21px;
+    display: block;
+    float: left;
+    margin: 29px 0 0px 0px;
+}
+
+.food-area .title .page, .food-area .title .title-right{
+    padding: 0px 20px;
+}
+
+.food-area .title .page input{
+    width:20px;
+}
+
+.food-area .title .prev{
+    background-image: url('../images/food/prev.png');
+}
+.food-area .title .next{
+    background-image: url('../images/food/next.png');
+}
+.food-area .title .prev, .food-area .title .next{
+    background-size: 100% auto;
+    width: 15px;
+    height: 27px;
+    display: block;
+    float: left;
+    margin: 5px 0 0px 0px;
+}
+
+.food-area .location .label>span{
+    padding-left: 10px;
+}
+
+.food-area .list ul>li .stars{
+    background-image: url('../images/food/star.png') ;
+    background-size: 100% auto;
+}
+
+.food-area .list .stars{
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin: 3px 0 2px 3px;
+}
+.food-area .list .item{
+    border: solid 1px #F1F1F1;
+}
+.food-area .list .item .content{
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
