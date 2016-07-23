@@ -93,9 +93,11 @@
     text-decoration: none;
 }
 
-.food-area .list ul>li h3{
+.food-area .list ul>li h3,  .food-profile h3{
     color:#F28D00;
+    height: 32px;
 }
+
 
 .food-area .location-flag{
     background-image: url('../images/food/food-location.png');
@@ -134,12 +136,12 @@
     padding-left: 10px;
 }
 
-.food-area .list ul>li .stars{
+.food-area .list ul>li .stars, .food-profile .stars{
     background-image: url('../images/food/star.png') ;
     background-size: 100% auto;
 }
 
-.food-area .list .stars{
+.food-area .list .stars,  .food-profile .stars{
     width: 15px;
     height: 15px;
     display: block;
@@ -152,5 +154,70 @@
 .food-area .list .item .content{
     box-sizing: border-box;
     padding: 0px 10px;
+}
+
+/*美食-子页面样式*/
+.food-profile, .material, .cook-step, .notice{
+    border: solid 2px #C4C4C4;
+    margin-bottom: 32px;
+}
+.food-profile {
+    height:426px;
+    background-color: #F5F3F2;
+}
+.food-profile h3{
+    padding-left:24px;
+}
+
+.food-profile .desc p, .food-detail .food-detail-desc p{
+    padding-left: 32px;
+}
+.food-detail .food-detail-desc p{
+    height: 28px;
+}
+.food-detail .food-detail-desc{
+    margin-bottom: 32px;
+}
+
+.food-profile .photo{
+    margin: 32px 32px;
+}
+.food-detail .photos ul>li {
+    display:inline-block;
+    margin-right: 36px;
+}
+.food-detail .photos ul>li:last-child {
+    margin-right: 0px;
+}
+.food-detail .material h3,.food-detail  .cook-step h3, .food-detail .notice h3{
+    background-color: #F28D00;
+    color: #fff;
+    font-size: 23px;
+    padding: 10px;
+    width: 128px;
+    font-family: -webkit-body;
+    text-align: center;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+.food-detail .photo-list ul>li{
+    display:inline-block;
+    margin: 0px 11px;
+    margin-bottom: 32px;
+}
+.food-detail .photo-list ul>li:first-child{
+    margin-left:32px;
+}
+.food-detail .photo-list ul>li:last-child{
+    margin-right:32px;
+}
+.cook-step .food-detail-desc{
+    width:60%;
+}
+.food-detail .cook-step .photo{
+    padding:0px 32px;
+}
+.food-detail .cook-step {
+    height:450px;
 }
 
