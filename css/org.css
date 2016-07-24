@@ -1,0 +1,98 @@
+.content{
+    min-height: 640px;
+}
+
+.food-header {
+    height: 150px;
+}
+.tab {
+    height: 37px;
+    background: #18639D;
+}
+.tab .active {
+    background: #022661;
+}
+
+.tab ul>li {
+    display: inline-block;
+    line-height: 37px;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+.tab ul>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*头部样式结束*/
+
+
+.food-desc{
+    min-height:412px;
+    border:solid 2px #C4C4C4;
+    margin-bottom:32px;
+    background: #E5F8FE;
+}
+.food-desc .desc p.flag{
+    background: url('../images/food/food-flag.png') no-repeat;
+    height:49px;
+    line-height: 49px;
+    font-size: 24px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.food-desc .photo , .bj-food-desc .photo{
+    padding:8px;
+}
+
+.desc {
+    width: 50%;
+    margin: 45px 0px;
+}
+
+.desc p,.desc h3 {
+    padding-left: 30px;
+}
+
+.desc h3 {
+    color: #18639D;
+    font-size: 32px;
+    font-family: -webkit-body;
+    margin-bottom: 24px;
+}
+.org {
+    border:solid 2px #ccc;
+    min-height: 366px;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.org .photo, .org .content{
+    width:50%;
+}
+.org .content{
+    min-height: 366px;
+}
+.org .content h3{
+
+    background: #E5F8FE;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    font-family: -webkit-body;
+    font-size: 32px;
+}
+.org .content h4, .org .content h3, .org .content p{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.qqqh ,.org .content h3{
+    color:#18639D;
+}
+.qxqq-btn {
+    text-align: right;
+}
+.go-page{
+    text-align: center;
+    font-size: 16px;
+}
