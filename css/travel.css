@@ -72,25 +72,20 @@
     color: #fff;
     text-decoration: none;
 }
-.food-desc, .bj-food-desc{
+.profile-desc{
     height:310px;
     border:solid 2px #C4C4C4;
     margin-bottom:32px;
+    background: #E5F8FE;
 }
-.food-desc .desc p.flag, .bj-food-desc .desc p.flag{
-    background: url('../images/food/food-flag.png') no-repeat;
-    height:49px;
-    line-height: 49px;
+
+.profile-desc .desc .title{
     font-size: 24px;
-    color:#fff;
     margin-bottom: 20px;
+    color: #18639D;
 }
 
-.bj-food-desc .desc p.flag{
-    background: url('../images/food/bj/bj-food-flag.png') no-repeat !important;
-}
-
-.food-desc .photo , .bj-food-desc .photo{
+.profile-desc .photo{
     padding:8px;
 }
 
@@ -360,4 +355,34 @@
  }
 .bj-notice .food-pingjia .content {
     width:90%;
+}
+
+.detail-desc em{
+    background: #18639D;
+    background-size: 100% auto;
+    width: 15px;
+    height: 45px;
+    display: block;
+    float: left;
+}
+.detail-desc h3{
+    padding-left:20px;
+    height: 45px;
+    font-size: 24px;
+    line-height: 45px;
+    border-bottom: solid #C5D8E6 2px;
+    color:#18639D;
+}
+.detail-desc .item{
+    margin-top:32px;
+    min-height: 318px;
+}
+.detail-desc .content{
+    width: 60%;
+}
+.detail-desc .content p{
+    text-indent: 32px;
+}
+.detail-desc .photo{
+    width: 31%;
 }
