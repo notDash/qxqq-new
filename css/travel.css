@@ -1,0 +1,363 @@
+.food-header{
+    height:150px;
+}
+
+.search{
+    min-height:134px;
+    text-align: center;
+    margin: 0px auto;
+    width:70%;
+}
+
+.search .static>ul>li{
+    display:inline-block;
+    padding-right: 30px;
+}
+
+.search .address {
+    height:50px;
+    margin-bottom: 10px;
+}
+.search .address select{
+    font-size: 18px;
+    border:none;
+    color:#022661;
+}
+
+.search .address .search-btn{
+    background: url('../images/travel/search.png') no-repeat #18639D;
+    background-position: left;
+    background-position-x: 15px;
+    display: inline-block;
+    width: 135px;
+    color: #fff;
+    font-size: 18px;
+    vertical-align: bottom;
+    height: 50px;
+    line-height: 48px;
+}
+
+.search .address .search-btn>em{
+    background: url("../images/travel/search.png");
+}
+
+.search .address input{
+    width:580px;
+    height:48px;
+}
+
+.search .address select, .search .address input{
+    height:48px;
+    line-height:48px;
+}
+.search .static {
+    text-align: left;
+    padding-left: 57px;
+}
+.tab{
+    height: 37px;
+    background: #18639D;
+}
+.tab .active{
+    background: #022661;
+}
+.tab ul>li {
+    display:inline-block;
+    line-height: 37px;
+    font-size: 16px;
+    padding: 0px 15px;
+
+}
+.tab ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.food-desc, .bj-food-desc{
+    height:310px;
+    border:solid 2px #C4C4C4;
+    margin-bottom:32px;
+}
+.food-desc .desc p.flag, .bj-food-desc .desc p.flag{
+    background: url('../images/food/food-flag.png') no-repeat;
+    height:49px;
+    line-height: 49px;
+    font-size: 24px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.bj-food-desc .desc p.flag{
+    background: url('../images/food/bj/bj-food-flag.png') no-repeat !important;
+}
+
+.food-desc .photo , .bj-food-desc .photo{
+    padding:8px;
+}
+
+.desc{
+    width:50%;
+    margin: 45px 0px;
+}
+.desc p{
+    padding-left: 30px;
+}
+
+.food-area .location{
+    border: solid 2px #EEEEEE;
+}
+/*.location p{*/
+    /*background: url('../images/food/food-location.png') no-repeat;*/
+/*}*/
+.food-area .location{
+    height:80px;
+    margin-bottom:32px;
+}
+.location ul>li {
+    display:inline-block;
+    padding: 28px 40px;
+}
+
+.location .label{
+    background-color: #EEEEEE;
+    height:80px;
+    line-height: 80px;
+    padding: 0px 20px;
+}
+
+.food-area .title, .bj-food-area .title {
+    background-color: #F28D00;
+    color:#fff;
+    height:37px;
+    line-height:37px;
+    margin-bottom:32px;
+}
+
+.bj-food-area .title {
+    background-color: #E5F8FE !important;
+    color:#18639D;
+}
+.food-area .title span, .bj-food-area .title span{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.food-area .list ul>li, .bj-food-area .list ul>li {
+    display:inline-block;
+    padding-right:41px;
+    margin-bottom: 53px;
+    vertical-align: middle;
+}
+
+.food-area .list ul>li:nth-child(3n+0), .bj-food-area .list ul>li:nth-child(3n+0){
+    padding-right:0px;
+}
+
+.food-area .list ul>li a, .bj-food-area .list ul>li a{
+    text-decoration: none;
+}
+
+.food-profile h3, .food-area .list ul>li h3{
+    color:#F28D00;
+    height: 32px;
+}
+
+.bj-food-area .list ul>li h3, .bj-food-profile h3{
+    color: red;
+    height: 32px;
+}
+
+
+.food-area .location-flag, .bj-food-area .location-flag{
+    background-image: url('../images/food/food-location.png');
+    background-size: 100% auto;
+    width: 15px;
+    height: 21px;
+    display: block;
+    float: left;
+    margin: 29px 0 0px 0px;
+}
+
+.food-area .title .page, .food-area .title .title-right, .bj-food-area .title .page, .bj-food-area .title .title-right{
+    padding: 0px 20px;
+}
+
+.food-area .title .page input, .bj-food-area .title .page input{
+    width:20px;
+}
+
+.food-area .title .prev, .bj-food-area .title .prev{
+    background-image: url('../images/travel/pre.png');
+}
+.food-area .title .next, .bj-food-area .title .next{
+    background-image: url('../images/travel/next.png');
+}
+.food-area .title .prev, .food-area .title .next, .bj-food-area .title .prev, .bj-food-area .title .next{
+    background-size: 100% auto;
+    width: 15px;
+    height: 27px;
+    display: block;
+    float: left;
+    margin: 5px 0 0px 0px;
+}
+
+.food-area .location .label>span{
+    padding-left: 10px;
+}
+
+.food-area .list ul>li .stars, .food-profile .stars{
+    background-image: url('../images/food/star.png') ;
+    background-size: 100% auto;
+}
+
+.bj-food-area .list ul>li .stars, .bj-food-profile .stars{
+    background-image: url('../images/food/bj/start-red.png') ;
+    background-size: 100% auto;
+}
+
+.bj-food-area .ood-profile .stars{
+    background-image: url('../images/food/bj/start-red.png') ;
+    background-size: 100% auto;
+}
+
+.food-area .list .stars,  .food-profile .stars, .bj-food-profile .stars{
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin: 3px 0 2px 3px;
+}
+.food-area .list .item{
+    border: solid 1px #F1F1F1;
+}
+.food-area .list .item .content{
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+/*美食-子页面样式*/
+.food-profile, .material, .cook-step, .notice
+,.bj-food-profile
+{
+    border: solid 2px #C4C4C4;
+    margin-bottom: 32px;
+}
+.bj-food-detail  .bj-notice{
+    border-top: solid 2px #C4C4C4 !important;
+    min-height: 320px;
+}
+.food-profile
+, .bj-food-profile
+{
+    height:426px;
+    background-color: #F5F3F2;
+}
+.food-profile h3
+, .bj-food-profile h3
+{
+    padding-left:24px;
+}
+.bj-food-profile .desc .top, .bj-food-profile .desc .bottom{
+    padding: 32px 0px;
+}
+.bj-food-profile .desc .top{
+    border-bottom: dashed 1px #ccc;
+}
+.food-profile .desc p, .food-detail .food-detail-desc p
+, .bj-food-profile .desc p, .bj-food-detail .food-detail-desc p
+{
+    padding-left: 32px;
+}
+.food-detail .food-detail-desc p
+, .bj-food-detail .food-detail-desc p
+{
+    height: 28px;
+}
+.food-detail .food-detail-desc
+, .bj-food-detail .food-detail-desc
+{
+    margin-bottom: 32px;
+}
+
+.food-profile .photo, .bj-food-profile .photo{
+    margin: 32px 32px;
+}
+.food-detail .photos ul>li
+, .bj-food-detail .photos ul>li
+{
+    display:inline-block;
+    margin-right: 36px;
+}
+.food-detail .photos ul>li:last-child
+, .bj-food-detail .photos ul>li:last-child
+{
+    margin-right: 0px;
+}
+.food-detail .material h3,.food-detail  .cook-step h3, .food-detail .notice h3
+, .bj-food-detail .material h3,.bj-food-detail  .cook-step h3, .bj-food-detail .bj-notice h3
+{
+    background-color: #F28D00;
+    color: #fff;
+    font-size: 23px;
+    padding: 10px;
+    width: 128px;
+    font-family: -webkit-body;
+    text-align: center;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+.bj-food-detail .material h3,.bj-food-detail  .cook-step h3, .bj-food-detail .bj-notice h3{
+    background-color: red;
+}
+.food-detail .photo-list ul>li,
+.bj-food-detail .photo-list ul>li{
+    display:inline-block;
+    margin: 0px 11px;
+    margin-bottom: 32px;
+}
+.food-detail .photo-list ul>li:nth-child(4n+1),
+.bj-food-detail .photo-list ul>li:nth-child(4n+1){
+    margin-left:32px;
+}
+.food-detail .photo-list ul>li:last-child,
+.bj-food-detail .photo-list ul>li:last-child{
+    margin-right:32px;
+}
+.cook-step .food-detail-desc{
+    width:60%;
+}
+.food-detail .cook-step .photo,
+.bj-food-detail .cook-step .photo{
+    padding:0px 32px;
+}
+.food-detail .cook-step ,
+.bj-food-detail .cook-step {
+    min-height: 450px;
+}
+.bj-food-detail .photo-list ul>li{
+    position: relative;
+}
+.float-span{
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    width: 100%;
+    background: #8B8B8B;
+    opacity: 0.8;
+    text-align: center;
+    color:#fff;
+}
+
+.bj-food-detail .map, .bj-notice .food-pingjia ul>li{
+    padding: 0px 32px;
+}
+.bj-notice .food-pingjia ul>li{
+    min-height: 120px;
+    border-bottom: dashed 1px #ccc;
+    padding: 16px 0px;
+}
+.bj-notice .food-pingjia .touxiang {
+     width:10%;
+ }
+.bj-notice .food-pingjia .content {
+    width:90%;
+}
